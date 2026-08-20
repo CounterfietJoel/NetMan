@@ -30,7 +30,7 @@ class TcpManager:
             ("HyStart", "netsh int tcp set global hystart=enabled"),
             ("PRR (Proportional Rate Reduction)", "netsh int tcp set global prr=enabled"),
             ("RFC 1323 Timestamps", "netsh int tcp set global timestamps=allowed"),
-            ("Initial RTO (1000ms)", "netsh int tcp set global initialRto=1000"),
+            ("Initial RTO (2000ms)", "netsh int tcp set global initialRto=2000"),
             ("CUBIC Congestion Provider", "netsh int tcp set supplemental template=internet congestionprovider=cubic")
         ]
         results = {}

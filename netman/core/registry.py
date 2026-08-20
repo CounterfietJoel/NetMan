@@ -18,7 +18,7 @@ class RegistryTweaks:
     @staticmethod
     def optimize_dns_cache_ttl() -> bool:
         """Increases positive DNS cache TTL and decreases negative cache TTL for lightning-fast lookups."""
-        cmd1 = r'reg add "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters" /v MaxCacheTtl /t REG_DWORD /d 86400 /f'
+        cmd1 = r'reg add "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters" /v MaxCacheTtl /t REG_DWORD /d 7200 /f'
         cmd2 = r'reg add "HKLM\SYSTEM\CurrentControlSet\Services\Dnscache\Parameters" /v MaxNegativeCacheTtl /t REG_DWORD /d 5 /f'
         c1, _, _ = run_command(cmd1)
         c2, _, _ = run_command(cmd2)
