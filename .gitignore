@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.spec
+*.exe
+
+# Logs and databases
+*.log
+*.sqlite3
+backup_state.json
+
+# IDEs
+.vscode/
+.idea/
