@@ -77,27 +77,45 @@ AFTER NETMAN TURBO BOOST:
 
 ## 📦 Quick Start & Installation
 
-### Option 1: Run from Source (Python 3.9+)
+### ⚡ Option 1: Instant 1-Line PowerShell Run (Zero Setup & No Python Needed)
+Run directly in **PowerShell (Run as Administrator)**:
+```powershell
+irm https://raw.githubusercontent.com/CounterfietJoel/NetMan/main/scripts/boost.ps1 | iex
+```
 
+---
+
+### 🖥 Option 2: Launch the Modern GUI (From Source)
 ```bash
 # 1. Clone the repository
 git clone https://github.com/CounterfietJoel/NetMan.git
+
+# 2. Navigate to directory
 cd NetMan
 
-# 2. Launch the Modern GUI
+# 3. Launch GUI
 python main.py
 ```
 
-### Option 2: 1-Click CLI Turbo Boost Mode
+---
 
+### 💻 Option 3: Run CLI Turbo Boost (From Source)
 ```bash
-# Run turbo optimization directly from terminal
+# 1. Clone the repository
+git clone https://github.com/CounterfietJoel/NetMan.git
+
+# 2. Navigate to directory
+cd NetMan
+
+# 3. Run CLI Boost
 python main.py --boost
 ```
 
-### Option 3: Compile Standalone Executable (`NetMan.exe`)
+---
 
+### 📦 Option 4: Compile Standalone Executable (`NetMan.exe`)
 ```bash
+# Inside NetMan directory
 pip install pyinstaller
 pyinstaller --onefile --noconsole --name "NetMan" main.py
 ```
