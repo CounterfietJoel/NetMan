@@ -2,6 +2,10 @@
 
 <div align="center">
 
+<p align="center">
+  <img src="assets/netman_banner.png" alt="NetMan Dashboard Banner" width="800" />
+</p>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%2011-0078D4.svg?logo=windows)](https://github.com/CounterfietJoel/NetMan)
 [![Python Version](https://img.shields.io/badge/Python-3.9%2B-3776AB.svg?logo=python)](https://www.python.org/)
